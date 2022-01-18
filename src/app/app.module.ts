@@ -8,6 +8,7 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { RatingBarComponent } from './rating-bar/rating-bar.component';
 import { DemoOutputComponent } from './demo-output/demo-output.component';
 import { DemoFormComponent } from './demo-form/demo-form.component';
+import { TodoComponent } from './todo/todo.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DemoFormComponent } from './demo-form/demo-form.component';
     ProgressBarComponent,
     RatingBarComponent,
     DemoOutputComponent,
-    DemoFormComponent
+    DemoFormComponent,
+    TodoComponent
   ],
   imports: [
     BrowserModule,
