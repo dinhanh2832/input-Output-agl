@@ -10,6 +10,8 @@ import { DemoOutputComponent } from './demo-output/demo-output.component';
 import { DemoFormComponent } from './demo-form/demo-form.component';
 import { TodoComponent } from './todo/todo.component';
 import { TimelinesComponent } from './timelines/timelines.component';
+import { YoutubePlaylistComponent } from './youtube-playlist/youtube-playlist.component';
+import { YoutubePlayerComponent } from './youtube-player/youtube-player.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { TimelinesComponent } from './timelines/timelines.component';
     DemoOutputComponent,
     DemoFormComponent,
     TodoComponent,
-    TimelinesComponent
+    TimelinesComponent,
+    YoutubePlaylistComponent,
+    YoutubePlayerComponent
   ],
   imports: [
     BrowserModule,
